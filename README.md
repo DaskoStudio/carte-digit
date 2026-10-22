@@ -1,32 +1,50 @@
-# Carte / Menu digital
+# Digital Menu / Business Card
 
-Page web statique d'une **carte de visite / menu digital** (projet ADK) : présentation responsive avec logo, visuels et mise en page en HTML/CSS/JS, pensée pour être partagée par lien ou QR code.
+> A responsive single-page website that works as a digital business card or menu, meant to be shared with a link or a QR code. Plain HTML, CSS and JavaScript — no build step.
 
-## ✨ Fonctionnalités
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-- Page unique responsive (`index.html`)
-- Styles (`style.css`) et interactions (`script.js`)
-- Visuels et logo
+---
 
-## 🚀 Lancer
+## Overview
 
-Ouvrir `index.html` dans un navigateur, ou servir le dossier :
+This project (code name **ADK**) is a lightweight digital menu: one page, a logo, visuals and a clean layout that reads well on a phone, which is where it will mostly be opened after scanning a QR code.
+
+## Features
+
+- Single responsive page (`index.html`).
+- Dedicated stylesheet (`style.css`) and interactions (`script.js`).
+- Logo and visuals bundled with the page.
+- Zero dependencies and zero build step — it can be hosted on any static host.
+
+## Getting started
+
+Open `index.html` in a browser, or serve the folder locally:
 
 ```bash
 python3 -m http.server 8000
-# puis http://localhost:8000
+# then open http://localhost:8000
 ```
 
-## 🛠️ Stack
+## Project structure
+
+```text
+index.html    The page
+style.css     Layout and styling
+script.js     Interactions
+*.png/jpg/webp/avif   Logo and visuals
+```
+
+## Deployment
+
+Any static host works (GitHub Pages, Vercel, Netlify): publish the repository root and share the resulting URL, or generate a QR code that points to it.
+
+## Tech stack
 
 HTML · CSS · JavaScript
 
-## 👤 Auteur
+---
 
-Konaté Adama (**[@DaskoStudio](https://github.com/DaskoStudio)**) — Ynov Campus
-
-## 🧱 Structure
-
-`index.html` : page ; `style.css` : styles ; `script.js` : interactions ; visuels à la racine.
-
-Aucune installation de dépendances nécessaire.
+**Author** — Konaté Adama · [github.com/DaskoStudio](https://github.com/DaskoStudio)
